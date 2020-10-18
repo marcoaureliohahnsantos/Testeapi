@@ -15,11 +15,13 @@ namespace NUnitTestJuros
         [SetUp]
         public void Setup()
         {
+        
         }
 
         [Test]
         public void Test1()
         {
+        
             taxajuros TAXA = new taxajuros();
             Assert.AreEqual(TAXA, 0.01);
         }
